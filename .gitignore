@@ -1,0 +1,25 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+*.tmp
+*.temp
+*.log
+
+# VS Code (optional but recommended)
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Hut / Copilot caches (if any appear)
+CopilotIndices/
+CopilotCaches/
+
+# Python cache (rare but harmless)
+__pycache__/
+*.pyc
+
+# Backup files
+*~
+~$*
