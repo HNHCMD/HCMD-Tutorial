@@ -1,79 +1,88 @@
-# HCMD Tutorial — 2026 Edition
+# HCMD Tutorial — Table of Contents
 
-This directory contains the official HCMD Tutorial.  
-It demonstrates the discipline across four Acts and a supporting appendix.
+This directory contains the full sequence of Acts that make up the HCMD Tutorial.
+Each Act introduces a new layer of the HCMD discipline, building toward a stable,
+meaning‑first, reproducible development practice.
 
-All tutorial content is written under the **HCMD Hut**, the stance used for
-producing HCMD artifacts. The HCMD Hut and its blueprint are located in `huts/shop/`.
-
-Huts define the stance, not the content.
+All Acts are written under the **HCMD Hut**, the stance used for producing HCMD
+artifacts.
 
 ---
 
-## Structure of the Tutorial
+## Acts
 
-### Act 1 — First Contact
+### **Act 1 — First Contact**
 
 A performance of the HCMD loop.  
-Shows meaning → STS → PSC → implementation → portability.
+Demonstrates Meaning → STS → PSC → Implementation → Portability.
 
-### Act 2 — Architecture
+### **Act 2 — Architecture**
 
 Explains the two‑engine model, layer boundaries, determinism, and failure modes.
 
-### Act 3 — Principle
+### **Act 3 — Principle**
 
-Introduces the cognitive separation principle that makes the architecture stable.
+Introduces the cognitive separation principle that stabilizes the architecture.
 
-### Act 4 — Stability Over Time
+### **Act 4 — Stability Over Time**
 
 Explains why HCMD remains reproducible across languages, tools, and years.
 
-### Appendix
+### **ActVAE — HCMD Applied to Variational Autoencoders**
 
-Operational notes, environment setup, comparisons, and hut‑related guidance.
+Applies the HCMD loop to the canonical VAE.  
+Shows how Meaning, STS, PSC, Implementation, and Interpretability map to a real
+model family.
+
+### **ActVAEP — Advanced VAE Variants in HCMD**
+
+Extends ActVAE to the full family of VAE variants:
+β‑VAE, FactorVAE, DIP‑VAE, Hierarchical VAE, Flow‑VAE, and Causal VAE.  
+Demonstrates how HCMD scales to complex generative architectures.
 
 ---
 
-## Reference Files
+## Supporting Material
 
-These files are part of the tutorial:
+### **appendix/**
 
-- `HCMD-Tutorial-Overview.md`
+Operational notes, environment setup, comparisons, and hut‑related guidance.
+
+### **Reference Documents**
+
+These files provide additional conceptual support:
+
 - `Reference-Copilot-Quick-Education.md`
 - `Reference-HCMD-Deep-Conceptual-Guide.md`
 - `Reference-HCMD-vs-XP.md`
 - `Reference-Meta-Guide.md`
 - `TERMINOLOGY.md`
 
+These documents are part of the public tutorial.
+
 ---
 
-## Purpose of This Directory
+## How to Use This Directory
 
-The tutorial provides:
+1. Read Acts in order (Act 1 → ActVAEP).  
+2. Consult the appendix as needed.  
+3. Use the reference documents for deeper conceptual grounding.  
+4. Treat each Act as a self‑contained demonstration of the HCMD loop.
 
-- a complete demonstration of the HCMD loop  
-- the architectural and cognitive principles behind the discipline  
+The tutorial is designed to be calm, structured, and reproducible.
+
+---
+
+## Purpose
+
+This directory provides the complete HCMD learning sequence:
+
+- the HCMD loop in motion  
+- the architecture behind the loop  
+- the principle that stabilizes the architecture  
 - the temporal stability model  
-- supporting references for readers and contributors  
+- the application to generative modeling (ActVAE, ActVAEP)
 
-It is not a codebase, not a library, and not a framework.  
-It is a **discipline** expressed through structured documents.
-
----
-
-## How to Read the Tutorial
-
-Read Acts 1–4 in order.  
-Do not skip ahead.  
-Do not optimize.  
-Each Act builds on the previous one.
-
-The appendix is optional and can be consulted as needed.
-
----
-
-HCMD is a way of working with Copilot.  
-This directory is the canonical introduction.
+It is the canonical path for learning HCMD.
 
 

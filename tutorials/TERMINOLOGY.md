@@ -207,15 +207,15 @@ Alignment modifies stance, not content.
 
 ## Hut
 
-An internal reasoning stance used by Copilot.  
+An internal reasoning stance used for HCMD work.  
 Not a tool, not a skill, not a prompt template.
 
 A hut defines:
 
-- what Copilot pays attention to  
-- what it ignores  
-- how it interprets ambiguity  
-- how it maintains consistency  
+- what is attended to  
+- what is ignored  
+- how ambiguity is interpreted  
+- how consistency is maintained  
 
 Huts are invisible by design.
 
@@ -224,7 +224,7 @@ Huts are invisible by design.
 ## HCMD Hut
 
 The stance used for all HCMD work.  
-Defined in:
+Located in:
     huts/shop/
 
 It enforces:
@@ -243,7 +243,6 @@ The HCMD Hut defines the stance, not the content.
 The directory containing official, stable huts:
     huts/shop/
 
-Used by the tutorial.  
 Public and canonical.
 
 ---
@@ -254,13 +253,13 @@ The directory for experimental huts:
     huts/lab@/
 
 Private.  
-Not part of the tutorial.
+Not part of the public tutorial.
 
 ---
 
 ## Stance
 
-The cognitive mode Copilot uses to interpret a request.  
+The cognitive mode used to interpret a request.  
 Determines reasoning behavior.  
 Defined by the active hut.
 
@@ -269,9 +268,7 @@ Defined by the active hut.
 ## Private‑Only Material
 
 Drafts, alternates, and historical versions.  
-Not part of the public tutorial.  
-Stored in:
-    archive-2026.04@/
+Not part of the public tutorial.
 
 ---
 
@@ -306,7 +303,78 @@ HCMD is a discipline, not an agent.
 
 ---
 
+# Terms Introduced in ActVAE and ActVAEP
+
+These terms extend the HCMD vocabulary into generative modeling.
+
+---
+
+## Disentanglement
+
+A property where each latent dimension corresponds to a single semantic factor.  
+Introduced in β‑VAE.
+
+---
+
+## Total Correlation (TC)
+
+A measure of statistical dependence between latent dimensions.  
+Minimized in FactorVAE.
+
+---
+
+## Covariance Alignment
+
+Matching the latent covariance matrix to a diagonal target structure.  
+Introduced in DIP‑VAE.
+
+---
+
+## Hierarchical Latent Structure
+
+A multi‑level latent space with global and local factors.  
+Introduced in Hierarchical VAE.
+
+---
+
+## Flow Transform
+
+An invertible transformation applied to latent variables.  
+Used in Flow‑VAE to reshape latent geometry.
+
+---
+
+## Log‑Det Jacobian
+
+The log‑determinant of the Jacobian of a flow transform.  
+Required for flow‑aware KL divergence.
+
+---
+
+## Causal Latent
+
+A latent dimension interpreted as a causal factor.  
+Introduced in Causal VAE.
+
+---
+
+## Intervention (in latent space)
+
+Modifying a causal latent variable to generate a counterfactual.
+
+---
+
+## Counterfactual Reconstruction
+
+A reconstruction generated after a latent intervention.  
+Used to evaluate causal consistency.
+
+---
+
 ## Summary
 
-This glossary defines the stable conceptual vocabulary of HCMD.  
+This glossary defines the stable conceptual vocabulary of HCMD and its
+extensions into generative modeling.  
 All terms are minimal, deterministic, and implementation‑free.
+
+
