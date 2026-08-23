@@ -1,79 +1,71 @@
 # **HCMD Tutorial — 2026 Edition**
 
-### **Human‑Centered Meta‑Development**
+This directory begins the **modern HCMD Tutorial**, rebuilt from a clean slate.The previous tutorial has been preserved under **HCMD-Tutorial-Legacy/** as a historical snapshot of the early HCMD era.
 
-This repository contains the official HCMD Tutorial.  
-It explains the discipline across four Acts, supported by reference material and an appendix.
+HCMD has evolved significantly since that time.The modern tutorial reflects the corrected architecture:
 
-All tutorial content is written under the **HCMD Hut**, the stance used for producing HCMD artifacts.  
-The HCMD Hut and its blueprint are located in `huts/shop/`.
+* **Meaning Layer**
 
-Huts define the stance, not the content.
+* **STS (Structured Task Specification)**
 
----
+* **PSC (Pseudo‑Structural Code)**
 
-## **Repository Structure**
+* **Implementation**
 
-### **tutorials/**
+* **HMD (Hierarchical Meaning Document)**
 
-The complete HCMD Tutorial.
+* **Language Portability Principle**
 
-- **HCMD-Tutorial-Overview.md** — entry point  
-- **Act1/** — the loop in motion  
-- **Act2/** — the architecture behind the loop  
-- **Act3/** — the principle beneath the architecture  
-- **Act4/** — the stability over time  
-- **appendix/** — environment notes, compariswons, hut guidance  
-- **Reference-*.md** — supporting conceptual documents  
+* **Two‑Copilot Model**
 
-### **huts/**
+* **Deterministic Pipeline**
 
-Stance definitions used by the tutorial.  
-Contains the **HCMD Hut**, its blueprint, and related hut structures.
+The legacy tutorial predates these corrections and is archived for reference only.
 
----
+## **Historical Note: HCMD-Tutorial-Legacy**
 
-## **Purpose**
+The folder **HCMD-Tutorial-Legacy/** contains:
 
-This repository provides:
+- the original Acts 1–4
+- early conceptual notes
+- pre‑HMD terminology
+- pre‑PSC correction
+- pre‑Two‑Copilot model explanations
+- early examples and environment notes
 
-- a reproducible tutorial for learning HCMD  
-- a structured explanation of the two‑engine architecture  
-- the cognitive principle behind the architecture  
-- the temporal stability model  
-- a foundation for stable co‑intelligence workflows  
+It represents the _first generation_ of HCMD thinking.It is preserved for historical continuity and for readers who want to see how HCMD developed over time.
 
-HCMD is a discipline, not a framework or agentic system.
+## **Modern Examples: InjectML**
 
----
+The modern HCMD Tutorial begins with [**InjectML**](https://github.com/HNHCMD/InjectML), a compact demonstration of the full HCMD pipeline:
 
-## **How to Navigate**
+- deterministic Meaning → STS → PSC → Implementation
+- language‑agnostic structure
+- reproducible regeneration
+- PSC‑correct and STS‑correct
+- ideal for teaching the architecture cleanly
 
-1. Start with **`tutorials/HCMD-Tutorial-Overview.md`**  
-2. Read **Act 1 → Act 2 → Act 3 → Act 4** in order  
-3. Consult **Reference** and **Appendix** as needed  
+InjectML is the recommended starting point for all new readers.
 
-The tutorial is designed to be read sequentially.  
-Each Act builds on the previous one.
+## **Optional Advanced Example: EntropyML**
 
----
+[**EntropyML**](https://github.com/HNHCMD/EntropyML) is an optional second example that applies HCMD to a conceptual modeling domain.It demonstrates:
 
-## **What This Repository Is**
+- abstract Meaning modeling
+- structural decomposition through PSC
+- HMD as a unified semantic‑structural artifact
+- interpretability of conceptual systems under HCMD
 
-- a canonical introduction to HCMD  
-- a stable, deterministic, reproducible discipline  
-- a complete explanation of meaning → structure → implementation separation  
-- a demonstration of the two‑engine model  
-- a long‑term reference for co‑intelligence workflows  
+EntropyML is not required for beginners but is valuable for readers exploring HCMD’s expressive range.
 
-## **What This Repository Is Not**
+## **Next Steps**
 
-- not a codebase  
-- not a framework  
-- not a library  
-- not an agentic system  
-- not a prompt‑engineering guide  
+This root directory will gradually be filled with:
 
-It is a **discipline** expressed through structured documents.
+- a new HCMD Tutorial Overview
+- updated terminology
+- modern examples
+- structured Acts aligned with the corrected architecture
+- references for HMD, AML, PSC, STS, and the Two‑Copilot Model
 
-
+The tutorial will grow in parallel with the evolution of HCMD itself.
